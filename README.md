@@ -1,4 +1,4 @@
-A portfolio of data analytics projects implemented in Python, focusing on real-world datasets including data wrangling, exploration, visualization, and reporting. 📈
+A portfolio of data analytics projects implemented in Python, focusing on real-world datasets data wrangling, exploration, visualization, and reporting. 📈
 
 ### Project1 Name: PROPERTY RENTAL EXPLORATION WITH WEB SCRAPING.  
 
