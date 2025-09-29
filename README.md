@@ -1,14 +1,44 @@
-## I have included Data Analysis Projects covering various aspects, all implemented using Python, in this repository. 
+This repository contains two data analytics projects implemented in Python, focusing on real-world datasets and end-to-end workflows. 
 
-### About Data Analytics:
-Data analytics, is the process of examining raw data to uncover insights, trends, and patterns that can inform decision-making and drive business strategies. It involves gathering, cleaning, processing, and interpreting data to extract meaningful information. Data analytics utilizes various techniques and tools, including statistical analysis,data visualization, to transform data into actionable insights. By understanding and analyzing data, organizations can gain valuable insights in multiple domains, enabling them to make informed decisions and optimize their performance. 
+### Project1 Name: PROPERTY RENTAL EXPLORATION WITH WEB SCRAPING.  
 
-### Project1 Description. 
-- Project Name: **PROPERTY RENTAL MARKET EXPLORATION BY WEB SCRAPING.**  
-- Abstract: The project delves into Thane's rental market using real-world data obtained from NoBroker.com. Python programming language serves as the backbone of this project, supported by essential libraries such as BeautifulSoup and Selenium for web scraping tasks. Data visualization is facilitated by Matplotlib and Seaborn, while pandas remains integral for data manipulation and analysis throughout the project. The extracted dataset comprises approximately 2478 rows and 10 columns. Through meticulous analysis, the project uncovers trends, patterns, and insights crucial for both tenants and landlords. Stakeholders gain actionable intelligence through data visualization and statistical analysis, aiding decision-making processes and strategic planning in the rental market. This project offers a comprehensive exploration of various aspects of the rental market landscape. Ultimately, this project aims to foster dialogue, innovation, and collaboration toward creating sustainable rental communities. 
-- For a comprehensive overview, please refer to the Project1 report PDF provided above.
-- The scraped data file, CSV file, is also available above for your reference.
-- The output for the web scraping section of the code has been cleared to address memory issues, as it was consuming a significant amount of memory. The entire file occupied approximately 38MB, exceeding the 25MB limit imposed by GitHub. However, I have also included the file (Project1_webscraping_op) containing the output for the web scraping part for those interested. You can download and examine it separately. 
+### 📌 Project Overview
+
+- Extracted and compiled ~2,500 rental property listings from dynamic platform NoBroker.com using Selenium (for JS-rendered pages) and BeautifulSoup (for HTML parsing).
+- Captured multiple attributes including rent, deposit, area, maintenance, tenure, amenities, furnishing type, and location.
+- Processed and validated the dataset (~2,478 rows × 10 columns) with pandas, handling missing values, duplicates, inconsistencies, and formatting issues.
+- Conducted Exploratory Data Analysis (EDA) with Matplotlib and Seaborn, analyzing distributions, relationships, and outliers.
+- Created visualizations to uncover key housing trends: Furnished vs unfurnished → clear difference in median rents. Prime localities → higher rent ranges but more variability. Deposit vs Rent → positive correlation with notable outliers.
+- Provided actionable insights into housing trends, enabling tenants and landlords to better understand the market.
+
+### 📂 Repository Contents
+
+- Project1.ipynb → Full Jupyter notebook covering web scraping, cleaning, and exploratory data analysis (EDA).
+- Project1.pdf → Project report summarizing methodology, analysis, and findings.
+- Project1_Scrape_Data.csv → Structured dataset (~2,478 rows × 10 columns) after cleaning and preprocessing.
+- Project1_webscraping_op.zip → Raw scraping output (large file, ~38MB) containing detailed HTML and intermediate data for reference.
+
+### 📊 Results
+
+- Project Workflow:
+<img width="1024" height="354" alt="Workflow" src="https://github.com/user-attachments/assets/ca4de51a-5128-4fec-95ac-b08fe4e051cf" />
+
+- Furnished properties had higher median rents and greater variability than unfurnished ones.
+- Prime localities showed higher rent ranges but also greater spread, reflecting both luxury and budget markets.
+- Rent and deposit were positively correlated, with outliers where deposits were disproportionately high.
+
+<img width="1184" height="864" alt="Distribution_PieCharts" src="https://github.com/user-attachments/assets/952f5778-6b4c-45a8-838d-e070639c3ec7" />
+<img width="984" height="716" alt="Distribution_BarCharts" src="https://github.com/user-attachments/assets/87cfe186-3a80-4c9a-a2ed-5ae59941a85b" />
+
+
+### 🔮 Future Scope
+
+- Automating periodic scraping with schedulers (cron/GitHub Actions).
+- Expanding dataset to multiple cities for broader market insights.
+
+### 💻 Tech Stack 
+
+• Python  • Pandas  • Matplotlib  • Seaborn  • BeautifulSoup (bs4)  • Selenium  • lxml
 
 ### Project2 Description. 
 - Project Name: **EXPLORING JOB POSTINGS DATA: UNVEILING PATTERNS AND TRENDS.**
