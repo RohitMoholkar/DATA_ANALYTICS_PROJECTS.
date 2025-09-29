@@ -27,10 +27,6 @@ This repository contains two data analytics projects implemented in Python, focu
 - Prime localities showed higher rent ranges but also greater spread, reflecting both luxury and budget markets.
 - Rent and deposit were positively correlated, with outliers where deposits were disproportionately high.
 
-<img width="1184" height="864" alt="Distribution_PieCharts" src="https://github.com/user-attachments/assets/952f5778-6b4c-45a8-838d-e070639c3ec7" />
-<img width="984" height="716" alt="Distribution_BarCharts" src="https://github.com/user-attachments/assets/87cfe186-3a80-4c9a-a2ed-5ae59941a85b" />
-
-
 ### 🔮 Future Scope
 
 - Automating periodic scraping with schedulers (cron/GitHub Actions).
