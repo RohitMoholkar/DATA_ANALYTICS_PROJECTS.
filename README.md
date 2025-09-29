@@ -1,4 +1,4 @@
-This repository contains two data analytics projects implemented in Python, focusing on real-world datasets and end-to-end workflows. 
+A portfolio of data analytics projects implemented in Python, focusing on real-world datasets and end-to-end workflows. 
 
 ### Project1 Name: PROPERTY RENTAL EXPLORATION WITH WEB SCRAPING.  
 
