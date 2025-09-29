@@ -37,6 +37,8 @@ Key Insights:
 
 • Python  • Pandas  • Matplotlib  • Seaborn  • BeautifulSoup (bs4)  • Selenium  • lxml
 
+___________________________________________________________________________________________________________________________________________________________________________________
+
 
 ### Project2 Name: JOB MARKET EXPLORATION (2021–2023).  
 
