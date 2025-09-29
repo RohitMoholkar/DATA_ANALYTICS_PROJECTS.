@@ -23,6 +23,7 @@ This repository contains two data analytics projects implemented in Python, focu
 - Project Workflow:
 <img width="1024" height="354" alt="Workflow" src="https://github.com/user-attachments/assets/ca4de51a-5128-4fec-95ac-b08fe4e051cf" />
 
+Key Insights:
 - Furnished properties had higher median rents and greater variability than unfurnished ones.
 - Prime localities showed higher rent ranges but also greater spread, reflecting both luxury and budget markets.
 - Rent and deposit were positively correlated, with outliers where deposits were disproportionately high.
@@ -36,10 +37,36 @@ This repository contains two data analytics projects implemented in Python, focu
 
 • Python  • Pandas  • Matplotlib  • Seaborn  • BeautifulSoup (bs4)  • Selenium  • lxml
 
-### Project2 Description. 
-- Project Name: **EXPLORING JOB POSTINGS DATA: UNVEILING PATTERNS AND TRENDS.**
-- The project aims to analyze a large dataset of job postings, spanning two years, to uncover insights and trends in job sectors, industries, and roles.
-- This project is divided into three important data analytics project steps: Step 1 involves loading and gaining a basic understanding of the dataset, Step 2 focuses on data cleaning and processing and Step 3 entails proper data analysis. 
-- Initially, imported all necessary libraries for the project for data analysis and visualization, including NumPy, Pandas, Matplotlib, Seaborn, and JSON. Obtained the dataset from Kaggle.com, which contains detailed job posting-related information. Loaded the dataset into the 'df' variable. The dataset contains 1,615,940 rows and 23 columns, making it considerably large data.
-- I performed comprehensive data preprocessing, I proceeded with several essential tasks to ensure the dataset's integrity and suitability for analysis. Initially, I focused on removing unnecessary columns and eliminating rows with missing values to streamline the dataset. Additionally, I introduced new columns to enrich the dataset's insights. Following this, I corrected the datatype of columns to ensure accurate analysis. One column, presented in JSON format, required special attention. I parsed the data and extracted valuable information to create new columns, enhancing the dataset's depth. To improve comprehension during analysis, I rearranged the columns. As a result of these preprocessing steps, the dataset now boasts 1,610,462 rows and 15 columns, primed for effective analysis and insightful discoveries. 
-- In the main data analysis section, I uncovered numerous insights by conducting in-depth exploration of the dataset. Using various analytical techniques, I plotted diverse graphs, created informative dataframes, and detailed key findings derived from the analysis. The dataset encompasses two years of job postings, spanning from September 15, 2021, to September 15, 2023. Across the analyses, I utilized a range of visualization methods including bar graphs, pie charts, and heatmaps to depict trends and patterns. Insights were gleaned regarding job sectors, industries, job roles, and more. For a comprehensive overview, please refer to the accompanying ipynb file named Project2 located above.  
+
+### Project2 Name: JOB MARKET EXPLORATION (2021–2023).  
+
+### 📌 Project Overview
+
+- Analyzed a large-scale dataset of 1.6M job postings from Kaggle to uncover patterns across sectors, industries, and roles.
+- Reduced raw dataset (1,615,940 rows × 23 columns) to a clean, analysis-ready structure (1,610,462 rows × 15 columns).
+- Performed data preprocessing: removed redundant columns, handled missing values, corrected datatypes, and standardized features.
+- Parsed a JSON-formatted column to extract skills and attributes, enriching the dataset with new insights.
+- Conducted exploratory data analysis (EDA) using Matplotlib and Seaborn, applying bar charts, pie charts, and heatmaps.
+- Discovered hiring trends over time, most in-demand roles, and sector-specific job patterns.
+
+### 📂 Repository Contents
+
+- Project2.ipynb → Jupyter notebook with full preprocessing + EDA.
+
+### 📊 Results
+
+- Dataset scale: 1.6M rows spanning Sept 2021 – Sept 2023.
+- Tech and healthcare sectors dominated postings, showing consistent demand.
+- Seasonal hiring trends evident in peaks and troughs across months.
+- JSON parsing revealed deeper insights into job requirements and skills.
+- Visual Outputs: Bar charts (sector distribution), pie charts (roles), heatmaps (correlations).
+
+### 🔮 Future Scope
+
+- Build predictive models to forecast sectoral job demand.
+- Extend analysis to salary insights if compensation data is available.
+
+### 💻 Tech Stack 
+
+• Python  • Pandas  • Matplotlib  • Seaborn  • BeautifulSoup (bs4)  • JSON
+
