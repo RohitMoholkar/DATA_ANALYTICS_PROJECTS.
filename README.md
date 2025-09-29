@@ -70,5 +70,5 @@ ________________________________________________________________________________
 
 ### 💻 Tech Stack 
 
-• Python  • Pandas  • Matplotlib  • Seaborn  • BeautifulSoup (bs4)  • JSON
+• Python  • Pandas  • NumPy  • Matplotlib  • Seaborn  • JSON
 
